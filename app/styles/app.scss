@@ -46,17 +46,29 @@ main {
 	>ul {
 		padding-left: 1em;
 		padding-right: 1em;
+		li {
+			list-style-type: none;
+			white-space: nowrap;
+			padding-bottom: 0.25em;
+		}
+	}
+	i {
+		width: 0.7em;
+		&:before {
+			font-size: 0.7em;
+			color: $colorBase;
+		}
 	}
 }
 
 .class-tree-item {
-		i {
-			width: 0.7em;
-			&:before {
-				font-size: 0.7em;
-				color: $colorBase;
-			}
+	i {
+		width: 0.7em;
+		&:before {
+			font-size: 0.7em;
+			color: $colorBase;
 		}
+	}
 
 	ul {
 		list-style-type: none;

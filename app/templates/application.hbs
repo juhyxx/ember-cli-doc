@@ -2,9 +2,21 @@
 	<section class='classes'>
 		<h1>Classes</h1>
 		<ul>
-			{{#each model as |cls|}}
+			{{#each model.classes as |cls|}}
 				{{class-tree-item model=cls}}
 			{{/each}}
+		</ul>
+		<h1>Modules</h1>
+
+		<ul>
+			{{#each model.modules as |module|}}
+				<li>{{material-design-icon name='extension'}} {{module.name}}</li>
+				<ul>
+				{{#each module.classes as |cls|}}
+					<li>{{#link-to 'class-detail' cls.id}}{{cls.name}}{{/link-to}}</li>
+			{{/each}}
+		</ul>
+		{{/each}}
 		</ul>
 	</section>
 	<section class="main">
