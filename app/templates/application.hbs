@@ -1,13 +1,13 @@
 <main>
-	<section>
-<ul>
-	{{#each model as |cls|}}
-		{{class-tree-item model=cls}}
-	{{/each}}
-</ul>
-</section>
-<section class="main">
-	{{outlet}}
-</section>
-
+	<section class='classes'>
+		<h1>Classes</h1>
+		<ul>
+			{{#each model as |cls|}}
+				{{class-tree-item model=cls}}
+			{{/each}}
+		</ul>
+	</section>
+	<section class="main">
+		{{outlet}}
+	</section>
 </main>

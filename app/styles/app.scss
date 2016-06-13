@@ -6,10 +6,15 @@ body {
 
 	font-family: 'Helvetica Neue', Helvetica, Arial, Sans-Serif;
 	background-color: $colorBackground;
+	margin: 0;
 }
 h1, h2, h3,
 h4, h5, h6{
     color: $colorBase;
+  }
+
+  h1 {
+	  border-bottom: 1px solid #dfd7d4;
   }
 a {
 	color: $colorBase;
@@ -27,5 +32,39 @@ main {
 	}
 	section.main {
 		flex: 4;
+	}
+}
+.classes {
+	background-color: lighten($colorBase, 38%);
+
+	h1 {
+		background-color: $colorBase;
+		color: white;
+		padding: 0.5em;
+		margin: 0;
+	}
+	>ul {
+		padding-left: 1em;
+		padding-right: 1em;
+	}
+}
+
+.class-tree-item {
+		i {
+			width: 0.7em;
+			&:before {
+				font-size: 0.7em;
+				color: $colorBase;
+			}
+		}
+
+	ul {
+		list-style-type: none;
+		padding-left: 2em;
+		padding-top: 0.25em;
+		li {
+			white-space: nowrap;
+			padding-bottom: 0.25em;
+		}
 	}
 }
