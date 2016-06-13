@@ -1,0 +1,18 @@
+<h1>{{model.name}}</h1>
+<i>{{model.module.name}}</i><br>
+
+{{markdown-to-html markdown=model.description}}
+
+<h2>Methods ({{methods.length}})</h2>
+<ul>
+	{{#each methods as |item|}}
+		<li><h3>{{item.name}}</h3> {{markdown-to-html markdown=item.description}}</li>
+	{{/each}}
+</ul>
+
+<h2>Properties ({{properties.length}})</h2>
+<ul>
+	{{#each properties as |item|}}
+		<li><h3>{{item.name}}</h3> {{markdown-to-html markdown=item.description}}</li>
+	{{/each}}
+</ul>

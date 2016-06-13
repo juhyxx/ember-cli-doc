@@ -1,0 +1,2167 @@
+{
+    "project": {
+        "name": "superadmin",
+        "description": "webapi power user wet dream",
+        "version": "1.1.0"
+    },
+    "files": {
+        "app/components/app-wrapper/component.js": {
+            "name": "app/components/app-wrapper/component.js",
+            "modules": {},
+            "classes": {
+                "AppWrapper": 1
+            },
+            "fors": {},
+            "namespaces": {}
+        },
+        "app/components/collapsible-component/component.js": {
+            "name": "app/components/collapsible-component/component.js",
+            "modules": {},
+            "classes": {
+                "CollapsibleComponent": 1
+            },
+            "fors": {},
+            "namespaces": {}
+        },
+        "app/components/confirm-button/component.js": {
+            "name": "app/components/confirm-button/component.js",
+            "modules": {},
+            "classes": {
+                "ConfirmButton": 1
+            },
+            "fors": {},
+            "namespaces": {}
+        },
+        "app/components/deletable-link/component.js": {
+            "name": "app/components/deletable-link/component.js",
+            "modules": {},
+            "classes": {
+                "DeletableLink": 1
+            },
+            "fors": {},
+            "namespaces": {}
+        },
+        "app/components/dropdown-button/component.js": {
+            "name": "app/components/dropdown-button/component.js",
+            "modules": {},
+            "classes": {
+                "DropdownButton": 1
+            },
+            "fors": {},
+            "namespaces": {}
+        },
+        "app/components/error-dialog/component.js": {
+            "name": "app/components/error-dialog/component.js",
+            "modules": {},
+            "classes": {
+                "ErrorDialog": 1
+            },
+            "fors": {},
+            "namespaces": {}
+        },
+        "app/components/graph-component/component.js": {
+            "name": "app/components/graph-component/component.js",
+            "modules": {},
+            "classes": {
+                "GraphComponent": 1
+            },
+            "fors": {},
+            "namespaces": {}
+        },
+        "app/components/histogram-graph/component.js": {
+            "name": "app/components/histogram-graph/component.js",
+            "modules": {},
+            "classes": {
+                "HistogramGraph": 1
+            },
+            "fors": {},
+            "namespaces": {}
+        },
+        "app/components/item-list-editor/component.js": {
+            "name": "app/components/item-list-editor/component.js",
+            "modules": {},
+            "classes": {
+                "ItemListEditor": 1
+            },
+            "fors": {},
+            "namespaces": {}
+        },
+        "app/components/list-item/component.js": {
+            "name": "app/components/list-item/component.js",
+            "modules": {},
+            "classes": {
+                "ListItem": 1
+            },
+            "fors": {},
+            "namespaces": {}
+        },
+        "app/components/list-tabbed-item/component.js": {
+            "name": "app/components/list-tabbed-item/component.js",
+            "modules": {},
+            "classes": {
+                "ListTabbedItem": 1
+            },
+            "fors": {},
+            "namespaces": {}
+        },
+        "app/components/radio-list/component.js": {
+            "name": "app/components/radio-list/component.js",
+            "modules": {},
+            "classes": {
+                "RadioList": 1
+            },
+            "fors": {},
+            "namespaces": {}
+        },
+        "app/components/switch-check/component.js": {
+            "name": "app/components/switch-check/component.js",
+            "modules": {},
+            "classes": {
+                "SwtichCheck": 1
+            },
+            "fors": {},
+            "namespaces": {}
+        },
+        "app/components/switch-check-unbind/component.js": {
+            "name": "app/components/switch-check-unbind/component.js",
+            "modules": {
+                "components\nThis component doesn't change checked value - just sends action": 1
+            },
+            "classes": {
+                "SwitchCheckUnbind": 1
+            },
+            "fors": {},
+            "namespaces": {}
+        },
+        "app/components/tab/base-component/component.js": {
+            "name": "app/components/tab/base-component/component.js",
+            "modules": {},
+            "classes": {
+                "BaseComponent": 1
+            },
+            "fors": {},
+            "namespaces": {}
+        },
+        "app/components/tab/base-detail/component.js": {
+            "name": "app/components/tab/base-detail/component.js",
+            "modules": {},
+            "classes": {
+                "BaseDetail": 1
+            },
+            "fors": {},
+            "namespaces": {}
+        },
+        "app/components/tab/base-list/component.js": {
+            "name": "app/components/tab/base-list/component.js",
+            "modules": {},
+            "classes": {
+                "BaseList": 1
+            },
+            "fors": {},
+            "namespaces": {}
+        },
+        "app/components/tab/detail-apikey/component.js": {
+            "name": "app/components/tab/detail-apikey/component.js",
+            "modules": {},
+            "classes": {},
+            "fors": {},
+            "namespaces": {}
+        },
+        "app/components/tab/detail-backend/component.js": {
+            "name": "app/components/tab/detail-backend/component.js",
+            "modules": {},
+            "classes": {
+                "DetailBackend": 1
+            },
+            "fors": {},
+            "namespaces": {}
+        },
+        "app/components/tab/detail-backendapikey/component.js": {
+            "name": "app/components/tab/detail-backendapikey/component.js",
+            "modules": {},
+            "classes": {
+                "DetailApikey": 1
+            },
+            "fors": {},
+            "namespaces": {}
+        },
+        "app/components/tab/detail-backendconfig/component.js": {
+            "name": "app/components/tab/detail-backendconfig/component.js",
+            "modules": {},
+            "classes": {
+                "DetailBackendconfig": 1
+            },
+            "fors": {},
+            "namespaces": {}
+        },
+        "app/components/tab/detail-backendheader/component.js": {
+            "name": "app/components/tab/detail-backendheader/component.js",
+            "modules": {},
+            "classes": {
+                "DetailBackendheader": 1
+            },
+            "fors": {},
+            "namespaces": {}
+        },
+        "app/components/tab/detail-backendowner/component.js": {
+            "name": "app/components/tab/detail-backendowner/component.js",
+            "modules": {},
+            "classes": {
+                "DetailBackendowner": 1
+            },
+            "fors": {},
+            "namespaces": {}
+        },
+        "app/components/tab/detail-component/component.js": {
+            "name": "app/components/tab/detail-component/component.js",
+            "modules": {
+                "components.tabs": 1
+            },
+            "classes": {
+                "DetailComponent": 1
+            },
+            "fors": {},
+            "namespaces": {}
+        },
+        "app/components/tab/detail-config/component.js": {
+            "name": "app/components/tab/detail-config/component.js",
+            "modules": {
+                "components.tabs.detail": 1
+            },
+            "classes": {},
+            "fors": {},
+            "namespaces": {}
+        },
+        "app/components/tab/detail-endpoint/component.js": {
+            "name": "app/components/tab/detail-endpoint/component.js",
+            "modules": {},
+            "classes": {},
+            "fors": {},
+            "namespaces": {}
+        },
+        "app/components/tab/detail-group/component.js": {
+            "name": "app/components/tab/detail-group/component.js",
+            "modules": {},
+            "classes": {
+                "DetailGroup": 1
+            },
+            "fors": {},
+            "namespaces": {}
+        },
+        "app/components/tab/detail-idprovider/component.js": {
+            "name": "app/components/tab/detail-idprovider/component.js",
+            "modules": {},
+            "classes": {
+                "DetailIdProvidet": 1
+            },
+            "fors": {},
+            "namespaces": {}
+        },
+        "app/components/tab/detail-import/component.js": {
+            "name": "app/components/tab/detail-import/component.js",
+            "modules": {},
+            "classes": {
+                "DetailConfig": 1
+            },
+            "fors": {},
+            "namespaces": {}
+        },
+        "app/components/tab/detail-owner/component.js": {
+            "name": "app/components/tab/detail-owner/component.js",
+            "modules": {},
+            "classes": {
+                "DetailOwner": 1
+            },
+            "fors": {},
+            "namespaces": {}
+        },
+        "app/components/tab/detail-permission/component.js": {
+            "name": "app/components/tab/detail-permission/component.js",
+            "modules": {},
+            "classes": {
+                "DetailOPermission": 1
+            },
+            "fors": {},
+            "namespaces": {}
+        },
+        "app/components/tab/detail-role/component.js": {
+            "name": "app/components/tab/detail-role/component.js",
+            "modules": {},
+            "classes": {
+                "DetailRole": 1
+            },
+            "fors": {},
+            "namespaces": {}
+        },
+        "app/components/tab/detail-template/component.js": {
+            "name": "app/components/tab/detail-template/component.js",
+            "modules": {},
+            "classes": {
+                "DetailTemplate": 1
+            },
+            "fors": {},
+            "namespaces": {}
+        },
+        "app/components/tab/detail-version/component.js": {
+            "name": "app/components/tab/detail-version/component.js",
+            "modules": {},
+            "classes": {
+                "DetailVersion": 1
+            },
+            "fors": {},
+            "namespaces": {}
+        },
+        "app/components/tab/list-add-component/component.js": {
+            "name": "app/components/tab/list-add-component/component.js",
+            "modules": {
+                "components.tabs.list": 1
+            },
+            "classes": {
+                "ListAddComponent": 1
+            },
+            "fors": {},
+            "namespaces": {}
+        },
+        "app/components/tab/list-noaction-component/component.js": {
+            "name": "app/components/tab/list-noaction-component/component.js",
+            "modules": {},
+            "classes": {
+                "ListNoactionComponent": 1
+            },
+            "fors": {},
+            "namespaces": {}
+        },
+        "app/components/tab/list-onoff-component/component.js": {
+            "name": "app/components/tab/list-onoff-component/component.js",
+            "modules": {},
+            "classes": {
+                "ListOnOffComponent": 1
+            },
+            "fors": {},
+            "namespaces": {}
+        },
+        "app/components/tab/list-search-component/component.js": {
+            "name": "app/components/tab/list-search-component/component.js",
+            "modules": {},
+            "classes": {
+                "SearchList": 1
+            },
+            "fors": {},
+            "namespaces": {}
+        },
+        "app/components/tab/list-tabbed-component/component.js": {
+            "name": "app/components/tab/list-tabbed-component/component.js",
+            "modules": {},
+            "classes": {
+                "ListTabbedComponent": 1
+            },
+            "fors": {},
+            "namespaces": {}
+        },
+        "app/components/validable-input/component.js": {
+            "name": "app/components/validable-input/component.js",
+            "modules": {
+                "components": 1
+            },
+            "classes": {
+                "ValidableInput": 1
+            },
+            "fors": {},
+            "namespaces": {}
+        },
+        "app/mixins/decodable.js": {
+            "name": "app/mixins/decodable.js",
+            "modules": {
+                "mixins": 1
+            },
+            "classes": {
+                "Decodable": 1
+            },
+            "fors": {},
+            "namespaces": {}
+        },
+        "app/mixins/graphable.js": {
+            "name": "app/mixins/graphable.js",
+            "modules": {},
+            "classes": {
+                "Graphable": 1
+            },
+            "fors": {},
+            "namespaces": {}
+        },
+        "app/mixins/stateable-model.js": {
+            "name": "app/mixins/stateable-model.js",
+            "modules": {},
+            "classes": {
+                "Stateable": 1
+            },
+            "fors": {},
+            "namespaces": {}
+        },
+        "app/models/enum/base.js": {
+            "name": "app/models/enum/base.js",
+            "modules": {
+                "model.Enum": 1
+            },
+            "classes": {
+                "BaseEnum": 1
+            },
+            "fors": {},
+            "namespaces": {}
+        },
+        "app/models/enum/cache.js": {
+            "name": "app/models/enum/cache.js",
+            "modules": {},
+            "classes": {
+                "EnumCache": 1
+            },
+            "fors": {},
+            "namespaces": {}
+        },
+        "app/models/enum/channel.js": {
+            "name": "app/models/enum/channel.js",
+            "modules": {},
+            "classes": {
+                "Channel": 1
+            },
+            "fors": {},
+            "namespaces": {}
+        },
+        "app/models/enum/device-type.js": {
+            "name": "app/models/enum/device-type.js",
+            "modules": {},
+            "classes": {
+                "EnumDeviceType": 1
+            },
+            "fors": {},
+            "namespaces": {}
+        },
+        "app/models/enum/idprovider-type.js": {
+            "name": "app/models/enum/idprovider-type.js",
+            "modules": {},
+            "classes": {
+                "IdProviderType": 1
+            },
+            "fors": {},
+            "namespaces": {}
+        },
+        "app/models/enum/method.js": {
+            "name": "app/models/enum/method.js",
+            "modules": {},
+            "classes": {
+                "EnumMethod": 1
+            },
+            "fors": {},
+            "namespaces": {}
+        },
+        "app/models/enum/oauth.js": {
+            "name": "app/models/enum/oauth.js",
+            "modules": {},
+            "classes": {
+                "EnumOauth": 1
+            },
+            "fors": {},
+            "namespaces": {}
+        },
+        "app/models/enum/state.js": {
+            "name": "app/models/enum/state.js",
+            "modules": {},
+            "classes": {
+                "EnumState": 1
+            },
+            "fors": {},
+            "namespaces": {}
+        },
+        "app/models/flow/enum-item.js": {
+            "name": "app/models/flow/enum-item.js",
+            "modules": {},
+            "classes": {
+                "EnumItem": 1
+            },
+            "fors": {},
+            "namespaces": {}
+        },
+        "app/models/apikey.js": {
+            "name": "app/models/apikey.js",
+            "modules": {},
+            "classes": {
+                "Apikey": 1
+            },
+            "fors": {},
+            "namespaces": {}
+        },
+        "app/models/backend.js": {
+            "name": "app/models/backend.js",
+            "modules": {},
+            "classes": {
+                "Backend": 1
+            },
+            "fors": {},
+            "namespaces": {}
+        },
+        "app/models/backendapikey.js": {
+            "name": "app/models/backendapikey.js",
+            "modules": {},
+            "classes": {
+                "Backendapikey": 1
+            },
+            "fors": {},
+            "namespaces": {}
+        },
+        "app/models/backendconfig.js": {
+            "name": "app/models/backendconfig.js",
+            "modules": {},
+            "classes": {
+                "Backendconfig": 1
+            },
+            "fors": {},
+            "namespaces": {}
+        },
+        "app/models/backendheader.js": {
+            "name": "app/models/backendheader.js",
+            "modules": {},
+            "classes": {
+                "Backendheader": 1
+            },
+            "fors": {},
+            "namespaces": {}
+        },
+        "app/models/backendowner.js": {
+            "name": "app/models/backendowner.js",
+            "modules": {},
+            "classes": {
+                "Backendowner": 1
+            },
+            "fors": {},
+            "namespaces": {}
+        },
+        "app/models/base-item.js": {
+            "name": "app/models/base-item.js",
+            "modules": {},
+            "classes": {
+                "BaseItem": 1
+            },
+            "fors": {},
+            "namespaces": {}
+        },
+        "app/models/config-item.js": {
+            "name": "app/models/config-item.js",
+            "modules": {},
+            "classes": {
+                "ConfigItem": 1
+            },
+            "fors": {},
+            "namespaces": {}
+        },
+        "app/models/config.js": {
+            "name": "app/models/config.js",
+            "modules": {},
+            "classes": {
+                "Config": 1
+            },
+            "fors": {},
+            "namespaces": {}
+        },
+        "app/models/endpoint.js": {
+            "name": "app/models/endpoint.js",
+            "modules": {},
+            "classes": {
+                "Endpoint": 1
+            },
+            "fors": {},
+            "namespaces": {}
+        },
+        "app/models/favorite.js": {
+            "name": "app/models/favorite.js",
+            "modules": {},
+            "classes": {
+                "Favorite": 1
+            },
+            "fors": {},
+            "namespaces": {}
+        },
+        "app/models/graph.js": {
+            "name": "app/models/graph.js",
+            "modules": {},
+            "classes": {
+                "Graph": 1
+            },
+            "fors": {},
+            "namespaces": {}
+        },
+        "app/models/group.js": {
+            "name": "app/models/group.js",
+            "modules": {},
+            "classes": {
+                "Group": 1
+            },
+            "fors": {},
+            "namespaces": {}
+        },
+        "app/models/idprovider.js": {
+            "name": "app/models/idprovider.js",
+            "modules": {},
+            "classes": {
+                "Idprovider": 1
+            },
+            "fors": {},
+            "namespaces": {}
+        },
+        "app/models/locker.js": {
+            "name": "app/models/locker.js",
+            "modules": {},
+            "classes": {
+                "Locker": 1
+            },
+            "fors": {},
+            "namespaces": {}
+        },
+        "app/models/notification.js": {
+            "name": "app/models/notification.js",
+            "modules": {},
+            "classes": {
+                "Notification": 1
+            },
+            "fors": {},
+            "namespaces": {}
+        },
+        "app/models/owner.js": {
+            "name": "app/models/owner.js",
+            "modules": {},
+            "classes": {
+                "Owner": 1
+            },
+            "fors": {},
+            "namespaces": {}
+        },
+        "app/models/permission.js": {
+            "name": "app/models/permission.js",
+            "modules": {},
+            "classes": {
+                "Permission": 1
+            },
+            "fors": {},
+            "namespaces": {}
+        },
+        "app/models/role.js": {
+            "name": "app/models/role.js",
+            "modules": {
+                "model": 1
+            },
+            "classes": {
+                "Role": 1
+            },
+            "fors": {},
+            "namespaces": {}
+        },
+        "app/models/search.js": {
+            "name": "app/models/search.js",
+            "modules": {},
+            "classes": {
+                "Search": 1
+            },
+            "fors": {},
+            "namespaces": {}
+        },
+        "app/models/signin.js": {
+            "name": "app/models/signin.js",
+            "modules": {},
+            "classes": {
+                "Signin": 1
+            },
+            "fors": {},
+            "namespaces": {}
+        },
+        "app/models/tab.js": {
+            "name": "app/models/tab.js",
+            "modules": {},
+            "classes": {
+                "Tab": 1
+            },
+            "fors": {},
+            "namespaces": {}
+        },
+        "app/models/template.js": {
+            "name": "app/models/template.js",
+            "modules": {
+                "model.item": 1
+            },
+            "classes": {
+                "Template": 1
+            },
+            "fors": {},
+            "namespaces": {}
+        },
+        "app/models/version.js": {
+            "name": "app/models/version.js",
+            "modules": {},
+            "classes": {
+                "Version": 1
+            },
+            "fors": {},
+            "namespaces": {}
+        }
+    },
+    "modules": {
+        "components": {
+            "name": "components",
+            "submodules": {},
+            "elements": {},
+            "classes": {
+                "ValidableInput": 1,
+                "AppWrapper": 1,
+                "CollapsibleComponent": 1,
+                "ConfirmButton": 1,
+                "DeletableLink": 1,
+                "DropdownButton": 1,
+                "ErrorDialog": 1,
+                "GraphComponent": 1,
+                "HistogramGraph": 1,
+                "ItemListEditor": 1,
+                "ListItem": 1,
+                "ListTabbedItem": 1,
+                "RadioList": 1,
+                "SwtichCheck": 1
+            },
+            "fors": {},
+            "namespaces": {},
+            "tag": "module",
+            "file": "app/components/validable-input/component.js",
+            "line": 4
+        },
+        "components\nThis component doesn't change checked value - just sends action": {
+            "name": "components\nThis component doesn't change checked value - just sends action",
+            "submodules": {},
+            "elements": {},
+            "classes": {
+                "SwitchCheckUnbind": 1
+            },
+            "fors": {},
+            "namespaces": {},
+            "tag": "module",
+            "file": "app/components/switch-check-unbind/component.js",
+            "line": 4
+        },
+        "components.tabs": {
+            "name": "components.tabs",
+            "submodules": {},
+            "elements": {},
+            "classes": {
+                "DetailComponent": 1,
+                "BaseComponent": 1
+            },
+            "fors": {},
+            "namespaces": {},
+            "tag": "module",
+            "file": "app/components/tab/detail-component/component.js",
+            "line": 4
+        },
+        "components.tabs.detail": {
+            "name": "components.tabs.detail",
+            "submodules": {},
+            "elements": {},
+            "classes": {
+                "DetailApikey": 1,
+                "DetailConfig": 1,
+                "BaseDetail": 1,
+                "DetailBackend": 1,
+                "DetailBackendconfig": 1,
+                "DetailBackendheader": 1,
+                "DetailBackendowner": 1,
+                "DetailGroup": 1,
+                "DetailIdProvidet": 1,
+                "DetailOwner": 1,
+                "DetailOPermission": 1,
+                "DetailRole": 1,
+                "DetailTemplate": 1,
+                "DetailVersion": 1
+            },
+            "fors": {},
+            "namespaces": {},
+            "tag": "module",
+            "file": "app/components/tab/detail-version/component.js",
+            "line": 4
+        },
+        "components.tabs.list": {
+            "name": "components.tabs.list",
+            "submodules": {},
+            "elements": {},
+            "classes": {
+                "ListAddComponent": 1,
+                "BaseList": 1,
+                "ListNoactionComponent": 1,
+                "ListOnOffComponent": 1,
+                "SearchList": 1,
+                "ListTabbedComponent": 1
+            },
+            "fors": {},
+            "namespaces": {},
+            "tag": "module",
+            "file": "app/components/tab/list-tabbed-component/component.js",
+            "line": 4
+        },
+        "mixins": {
+            "name": "mixins",
+            "submodules": {},
+            "elements": {},
+            "classes": {
+                "Decodable": 1,
+                "Graphable": 1,
+                "Stateable": 1
+            },
+            "fors": {},
+            "namespaces": {},
+            "tag": "module",
+            "file": "app/mixins/stateable-model.js",
+            "line": 4,
+            "description": "TODO: this should be service"
+        },
+        "model.Enum": {
+            "name": "model.Enum",
+            "submodules": {},
+            "elements": {},
+            "classes": {
+                "BaseEnum": 1,
+                "EnumCache": 1,
+                "Channel": 1,
+                "EnumDeviceType": 1,
+                "IdProviderType": 1,
+                "EnumMethod": 1,
+                "EnumOauth": 1,
+                "EnumState": 1,
+                "EnumItem": 1
+            },
+            "fors": {},
+            "namespaces": {},
+            "tag": "module",
+            "file": "app/models/flow/enum-item.js",
+            "line": 3,
+            "description": "Enum."
+        },
+        "model.item": {
+            "name": "model.item",
+            "submodules": {
+                "undefined": 1
+            },
+            "elements": {},
+            "classes": {
+                "Config": 1,
+                "Group": 1,
+                "Owner": 1,
+                "Template": 1,
+                "Apikey": 1,
+                "Backend": 1,
+                "Backendapikey": 1,
+                "Backendconfig": 1,
+                "Backendheader": 1,
+                "Backendowner": 1,
+                "BaseItem": 1,
+                "Endpoint": 1,
+                "Idprovider": 1,
+                "Permission": 1,
+                "Version": 1
+            },
+            "fors": {},
+            "namespaces": {},
+            "tag": "module",
+            "file": "app/models/version.js",
+            "line": 4
+        },
+        "model": {
+            "name": "model",
+            "submodules": {},
+            "elements": {},
+            "classes": {
+                "Favorite": 1,
+                "Locker": 1,
+                "Role": 1,
+                "ConfigItem": 1,
+                "Graph": 1,
+                "Notification": 1,
+                "Search": 1,
+                "Signin": 1,
+                "Tab": 1
+            },
+            "fors": {},
+            "namespaces": {},
+            "tag": "module",
+            "file": "app/models/tab.js",
+            "line": 6
+        }
+    },
+    "classes": {
+        "AppWrapper": {
+            "name": "AppWrapper",
+            "shortname": "AppWrapper",
+            "classitems": [],
+            "plugins": [],
+            "extensions": [],
+            "plugin_for": [],
+            "extension_for": [],
+            "module": "components",
+            "file": "app/components/app-wrapper/component.js",
+            "line": 3,
+            "description": "Solves handling of keyboard events.",
+            "extends": "Ember.Component"
+        },
+        "CollapsibleComponent": {
+            "name": "CollapsibleComponent",
+            "shortname": "CollapsibleComponent",
+            "classitems": [],
+            "plugins": [],
+            "extensions": [],
+            "plugin_for": [],
+            "extension_for": [],
+            "module": "components",
+            "namespace": "",
+            "file": "app/components/collapsible-component/component.js",
+            "line": 4,
+            "extends": "Ember.Component"
+        },
+        "ConfirmButton": {
+            "name": "ConfirmButton",
+            "shortname": "ConfirmButton",
+            "classitems": [],
+            "plugins": [],
+            "extensions": [],
+            "plugin_for": [],
+            "extension_for": [],
+            "module": "components",
+            "namespace": "",
+            "file": "app/components/confirm-button/component.js",
+            "line": 4,
+            "extends": "Ember.Component"
+        },
+        "DeletableLink": {
+            "name": "DeletableLink",
+            "shortname": "DeletableLink",
+            "classitems": [],
+            "plugins": [],
+            "extensions": [],
+            "plugin_for": [],
+            "extension_for": [],
+            "module": "components",
+            "namespace": "",
+            "file": "app/components/deletable-link/component.js",
+            "line": 3,
+            "extends": "Ember.Component"
+        },
+        "DropdownButton": {
+            "name": "DropdownButton",
+            "shortname": "DropdownButton",
+            "classitems": [],
+            "plugins": [],
+            "extensions": [],
+            "plugin_for": [],
+            "extension_for": [],
+            "module": "components",
+            "namespace": "",
+            "file": "app/components/dropdown-button/component.js",
+            "line": 4,
+            "extends": "Ember.Component"
+        },
+        "ErrorDialog": {
+            "name": "ErrorDialog",
+            "shortname": "ErrorDialog",
+            "classitems": [],
+            "plugins": [],
+            "extensions": [],
+            "plugin_for": [],
+            "extension_for": [],
+            "module": "components",
+            "namespace": "",
+            "file": "app/components/error-dialog/component.js",
+            "line": 4,
+            "extends": "Ember.Component"
+        },
+        "GraphComponent": {
+            "name": "GraphComponent",
+            "shortname": "GraphComponent",
+            "classitems": [],
+            "plugins": [],
+            "extensions": [],
+            "plugin_for": [],
+            "extension_for": [],
+            "module": "components",
+            "namespace": "",
+            "file": "app/components/graph-component/component.js",
+            "line": 3,
+            "extends": "Ember.Component"
+        },
+        "HistogramGraph": {
+            "name": "HistogramGraph",
+            "shortname": "HistogramGraph",
+            "classitems": [],
+            "plugins": [],
+            "extensions": [],
+            "plugin_for": [],
+            "extension_for": [],
+            "module": "components",
+            "namespace": "",
+            "file": "app/components/histogram-graph/component.js",
+            "line": 4,
+            "extends": "Ember.Component"
+        },
+        "ItemListEditor": {
+            "name": "ItemListEditor",
+            "shortname": "ItemListEditor",
+            "classitems": [],
+            "plugins": [],
+            "extensions": [],
+            "plugin_for": [],
+            "extension_for": [],
+            "module": "components",
+            "namespace": "",
+            "file": "app/components/item-list-editor/component.js",
+            "line": 3,
+            "extends": "Ember.Component"
+        },
+        "ListItem": {
+            "name": "ListItem",
+            "shortname": "ListItem",
+            "classitems": [],
+            "plugins": [],
+            "extensions": [],
+            "plugin_for": [],
+            "extension_for": [],
+            "module": "components",
+            "namespace": "",
+            "file": "app/components/list-item/component.js",
+            "line": 4,
+            "extends": "Ember.Component"
+        },
+        "ListTabbedItem": {
+            "name": "ListTabbedItem",
+            "shortname": "ListTabbedItem",
+            "classitems": [],
+            "plugins": [],
+            "extensions": [],
+            "plugin_for": [],
+            "extension_for": [],
+            "module": "components",
+            "namespace": "",
+            "file": "app/components/list-tabbed-item/component.js",
+            "line": 5,
+            "extends": "Ember.Component"
+        },
+        "RadioList": {
+            "name": "RadioList",
+            "shortname": "RadioList",
+            "classitems": [],
+            "plugins": [],
+            "extensions": [],
+            "plugin_for": [],
+            "extension_for": [],
+            "module": "components",
+            "namespace": "",
+            "file": "app/components/radio-list/component.js",
+            "line": 4,
+            "extends": "Ember.Component"
+        },
+        "SwtichCheck": {
+            "name": "SwtichCheck",
+            "shortname": "SwtichCheck",
+            "classitems": [],
+            "plugins": [],
+            "extensions": [],
+            "plugin_for": [],
+            "extension_for": [],
+            "module": "components",
+            "namespace": "",
+            "file": "app/components/switch-check/component.js",
+            "line": 4,
+            "extends": "Ember.Component"
+        },
+        "SwitchCheckUnbind": {
+            "name": "SwitchCheckUnbind",
+            "shortname": "SwitchCheckUnbind",
+            "classitems": [],
+            "plugins": [],
+            "extensions": [],
+            "plugin_for": [],
+            "extension_for": [],
+            "module": "components\nThis component doesn't change checked value - just sends action",
+            "namespace": "",
+            "file": "app/components/switch-check-unbind/component.js",
+            "line": 4,
+            "extends": "Ember.Component"
+        },
+        "BaseComponent": {
+            "name": "BaseComponent",
+            "shortname": "BaseComponent",
+            "classitems": [],
+            "plugins": [],
+            "extensions": [],
+            "plugin_for": [],
+            "extension_for": [],
+            "module": "components.tabs",
+            "namespace": "",
+            "file": "app/components/tab/base-component/component.js",
+            "line": 4,
+            "extends": "Ember.Component"
+        },
+        "BaseDetail": {
+            "name": "BaseDetail",
+            "shortname": "BaseDetail",
+            "classitems": [],
+            "plugins": [],
+            "extensions": [],
+            "plugin_for": [],
+            "extension_for": [],
+            "module": "components.tabs.detail",
+            "namespace": "",
+            "file": "app/components/tab/base-detail/component.js",
+            "line": 5,
+            "extends": "Ember.Component"
+        },
+        "BaseList": {
+            "name": "BaseList",
+            "shortname": "BaseList",
+            "classitems": [],
+            "plugins": [],
+            "extensions": [],
+            "plugin_for": [],
+            "extension_for": [],
+            "module": "components.tabs.list",
+            "namespace": "",
+            "file": "app/components/tab/base-list/component.js",
+            "line": 4,
+            "extends": "BaseComponent"
+        },
+        "DetailApikey": {
+            "name": "DetailApikey",
+            "shortname": "DetailApikey",
+            "classitems": [],
+            "plugins": [],
+            "extensions": [],
+            "plugin_for": [],
+            "extension_for": [],
+            "module": "components.tabs.detail",
+            "namespace": "",
+            "file": "app/components/tab/detail-backendapikey/component.js",
+            "line": 4,
+            "extends": "BaseDetail"
+        },
+        "DetailBackend": {
+            "name": "DetailBackend",
+            "shortname": "DetailBackend",
+            "classitems": [],
+            "plugins": [],
+            "extensions": [],
+            "plugin_for": [],
+            "extension_for": [],
+            "module": "components.tabs.detail",
+            "namespace": "",
+            "file": "app/components/tab/detail-backend/component.js",
+            "line": 6,
+            "extends": "BaseDetail"
+        },
+        "DetailBackendconfig": {
+            "name": "DetailBackendconfig",
+            "shortname": "DetailBackendconfig",
+            "classitems": [],
+            "plugins": [],
+            "extensions": [],
+            "plugin_for": [],
+            "extension_for": [],
+            "module": "components.tabs.detail",
+            "namespace": "",
+            "file": "app/components/tab/detail-backendconfig/component.js",
+            "line": 4,
+            "extends": "BaseDetail"
+        },
+        "DetailBackendheader": {
+            "name": "DetailBackendheader",
+            "shortname": "DetailBackendheader",
+            "classitems": [],
+            "plugins": [],
+            "extensions": [],
+            "plugin_for": [],
+            "extension_for": [],
+            "module": "components.tabs.detail",
+            "namespace": "",
+            "file": "app/components/tab/detail-backendheader/component.js",
+            "line": 4,
+            "extends": "BaseDetail"
+        },
+        "DetailBackendowner": {
+            "name": "DetailBackendowner",
+            "shortname": "DetailBackendowner",
+            "classitems": [],
+            "plugins": [],
+            "extensions": [],
+            "plugin_for": [],
+            "extension_for": [],
+            "module": "components.tabs.detail",
+            "namespace": "",
+            "file": "app/components/tab/detail-backendowner/component.js",
+            "line": 3,
+            "extends": "BaseDetail"
+        },
+        "DetailComponent": {
+            "name": "DetailComponent",
+            "shortname": "DetailComponent",
+            "classitems": [],
+            "plugins": [],
+            "extensions": [],
+            "plugin_for": [],
+            "extension_for": [],
+            "module": "components.tabs",
+            "namespace": "",
+            "file": "app/components/tab/detail-component/component.js",
+            "line": 4,
+            "extends": "BaseComponent"
+        },
+        "DetailConfig": {
+            "name": "DetailConfig",
+            "shortname": "DetailConfig",
+            "classitems": [],
+            "plugins": [],
+            "extensions": [],
+            "plugin_for": [],
+            "extension_for": [],
+            "module": "components.tabs.detail",
+            "namespace": "",
+            "file": "app/components/tab/detail-import/component.js",
+            "line": 4,
+            "extends": "BaseDetail"
+        },
+        "DetailGroup": {
+            "name": "DetailGroup",
+            "shortname": "DetailGroup",
+            "classitems": [],
+            "plugins": [],
+            "extensions": [],
+            "plugin_for": [],
+            "extension_for": [],
+            "module": "components.tabs.detail",
+            "namespace": "",
+            "file": "app/components/tab/detail-group/component.js",
+            "line": 4,
+            "extends": "BaseDetail"
+        },
+        "DetailIdProvidet": {
+            "name": "DetailIdProvidet",
+            "shortname": "DetailIdProvidet",
+            "classitems": [],
+            "plugins": [],
+            "extensions": [],
+            "plugin_for": [],
+            "extension_for": [],
+            "module": "components.tabs.detail",
+            "namespace": "",
+            "file": "app/components/tab/detail-idprovider/component.js",
+            "line": 4,
+            "extends": "BaseDetail"
+        },
+        "DetailOwner": {
+            "name": "DetailOwner",
+            "shortname": "DetailOwner",
+            "classitems": [],
+            "plugins": [],
+            "extensions": [],
+            "plugin_for": [],
+            "extension_for": [],
+            "module": "components.tabs.detail",
+            "namespace": "",
+            "file": "app/components/tab/detail-owner/component.js",
+            "line": 5,
+            "extends": "BaseDetail"
+        },
+        "DetailOPermission": {
+            "name": "DetailOPermission",
+            "shortname": "DetailOPermission",
+            "classitems": [],
+            "plugins": [],
+            "extensions": [],
+            "plugin_for": [],
+            "extension_for": [],
+            "module": "components.tabs.detail",
+            "namespace": "",
+            "file": "app/components/tab/detail-permission/component.js",
+            "line": 3,
+            "extends": "BaseDetail"
+        },
+        "DetailRole": {
+            "name": "DetailRole",
+            "shortname": "DetailRole",
+            "classitems": [],
+            "plugins": [],
+            "extensions": [],
+            "plugin_for": [],
+            "extension_for": [],
+            "module": "components.tabs.detail",
+            "namespace": "",
+            "file": "app/components/tab/detail-role/component.js",
+            "line": 3,
+            "extends": "BaseDetail"
+        },
+        "DetailTemplate": {
+            "name": "DetailTemplate",
+            "shortname": "DetailTemplate",
+            "classitems": [],
+            "plugins": [],
+            "extensions": [],
+            "plugin_for": [],
+            "extension_for": [],
+            "module": "components.tabs.detail",
+            "namespace": "",
+            "file": "app/components/tab/detail-template/component.js",
+            "line": 5,
+            "extends": "BaseDetail"
+        },
+        "DetailVersion": {
+            "name": "DetailVersion",
+            "shortname": "DetailVersion",
+            "classitems": [],
+            "plugins": [],
+            "extensions": [],
+            "plugin_for": [],
+            "extension_for": [],
+            "module": "components.tabs.detail",
+            "namespace": "",
+            "file": "app/components/tab/detail-version/component.js",
+            "line": 4,
+            "extends": "BaseDetail"
+        },
+        "ListAddComponent": {
+            "name": "ListAddComponent",
+            "shortname": "ListAddComponent",
+            "classitems": [],
+            "plugins": [],
+            "extensions": [],
+            "plugin_for": [],
+            "extension_for": [],
+            "module": "components.tabs.list",
+            "namespace": "",
+            "file": "app/components/tab/list-add-component/component.js",
+            "line": 3,
+            "extends": "BaseList"
+        },
+        "ListNoactionComponent": {
+            "name": "ListNoactionComponent",
+            "shortname": "ListNoactionComponent",
+            "classitems": [],
+            "plugins": [],
+            "extensions": [],
+            "plugin_for": [],
+            "extension_for": [],
+            "module": "components.tabs.list",
+            "namespace": "",
+            "file": "app/components/tab/list-noaction-component/component.js",
+            "line": 3,
+            "extends": "BaseList"
+        },
+        "ListOnOffComponent": {
+            "name": "ListOnOffComponent",
+            "shortname": "ListOnOffComponent",
+            "classitems": [],
+            "plugins": [],
+            "extensions": [],
+            "plugin_for": [],
+            "extension_for": [],
+            "module": "components.tabs.list",
+            "namespace": "",
+            "file": "app/components/tab/list-onoff-component/component.js",
+            "line": 4,
+            "extends": "BaseList"
+        },
+        "SearchList": {
+            "name": "SearchList",
+            "shortname": "SearchList",
+            "classitems": [],
+            "plugins": [],
+            "extensions": [],
+            "plugin_for": [],
+            "extension_for": [],
+            "module": "components.tabs.list",
+            "namespace": "",
+            "file": "app/components/tab/list-search-component/component.js",
+            "line": 4,
+            "extends": "ListComponent"
+        },
+        "ListTabbedComponent": {
+            "name": "ListTabbedComponent",
+            "shortname": "ListTabbedComponent",
+            "classitems": [],
+            "plugins": [],
+            "extensions": [],
+            "plugin_for": [],
+            "extension_for": [],
+            "module": "components.tabs.list",
+            "namespace": "",
+            "file": "app/components/tab/list-tabbed-component/component.js",
+            "line": 4,
+            "extends": "BaseList"
+        },
+        "ValidableInput": {
+            "name": "ValidableInput",
+            "shortname": "ValidableInput",
+            "classitems": [],
+            "plugins": [],
+            "extensions": [],
+            "plugin_for": [],
+            "extension_for": [],
+            "module": "components",
+            "namespace": "",
+            "file": "app/components/validable-input/component.js",
+            "line": 4,
+            "extends": "Ember.Component"
+        },
+        "Decodable": {
+            "name": "Decodable",
+            "shortname": "Decodable",
+            "classitems": [],
+            "plugins": [],
+            "extensions": [],
+            "plugin_for": [],
+            "extension_for": [],
+            "module": "mixins",
+            "namespace": "",
+            "file": "app/mixins/decodable.js",
+            "line": 3,
+            "description": "TODO: this should be service",
+            "extends": "Ember.Mixin"
+        },
+        "Graphable": {
+            "name": "Graphable",
+            "shortname": "Graphable",
+            "classitems": [],
+            "plugins": [],
+            "extensions": [],
+            "plugin_for": [],
+            "extension_for": [],
+            "module": "mixins",
+            "namespace": "",
+            "file": "app/mixins/graphable.js",
+            "line": 4,
+            "description": "Mixin for models.",
+            "extends": "Ember.Mixin"
+        },
+        "Stateable": {
+            "name": "Stateable",
+            "shortname": "Stateable",
+            "classitems": [],
+            "plugins": [],
+            "extensions": [],
+            "plugin_for": [],
+            "extension_for": [],
+            "module": "mixins",
+            "namespace": "",
+            "file": "app/mixins/stateable-model.js",
+            "line": 4,
+            "description": "Mixin for models.",
+            "extends": "Ember.Mixin"
+        },
+        "BaseEnum": {
+            "name": "BaseEnum",
+            "shortname": "BaseEnum",
+            "classitems": [],
+            "plugins": [],
+            "extensions": [],
+            "plugin_for": [],
+            "extension_for": [],
+            "module": "model.Enum",
+            "namespace": "",
+            "file": "app/models/enum/base.js",
+            "line": 4,
+            "description": "Enum.",
+            "extends": "DS.Model"
+        },
+        "EnumCache": {
+            "name": "EnumCache",
+            "shortname": "EnumCache",
+            "classitems": [],
+            "plugins": [],
+            "extensions": [],
+            "plugin_for": [],
+            "extension_for": [],
+            "module": "model.Enum",
+            "namespace": "",
+            "file": "app/models/enum/cache.js",
+            "line": 3,
+            "description": "Enum.",
+            "extends": "DS.Model"
+        },
+        "Channel": {
+            "name": "Channel",
+            "shortname": "Channel",
+            "classitems": [],
+            "plugins": [],
+            "extensions": [],
+            "plugin_for": [],
+            "extension_for": [],
+            "module": "model.Enum",
+            "namespace": "",
+            "file": "app/models/enum/channel.js",
+            "line": 5,
+            "description": "Values for Enum.",
+            "extends": "BaseEnum"
+        },
+        "EnumDeviceType": {
+            "name": "EnumDeviceType",
+            "shortname": "EnumDeviceType",
+            "classitems": [],
+            "plugins": [],
+            "extensions": [],
+            "plugin_for": [],
+            "extension_for": [],
+            "module": "model.Enum",
+            "namespace": "",
+            "file": "app/models/enum/device-type.js",
+            "line": 3,
+            "description": "Enum.",
+            "extends": "DS.Model"
+        },
+        "IdProviderType": {
+            "name": "IdProviderType",
+            "shortname": "IdProviderType",
+            "classitems": [],
+            "plugins": [],
+            "extensions": [],
+            "plugin_for": [],
+            "extension_for": [],
+            "module": "model.Enum",
+            "namespace": "",
+            "file": "app/models/enum/idprovider-type.js",
+            "line": 3,
+            "description": "Values for Enum.",
+            "extends": "DS.Model"
+        },
+        "EnumMethod": {
+            "name": "EnumMethod",
+            "shortname": "EnumMethod",
+            "classitems": [],
+            "plugins": [],
+            "extensions": [],
+            "plugin_for": [],
+            "extension_for": [],
+            "module": "model.Enum",
+            "namespace": "",
+            "file": "app/models/enum/method.js",
+            "line": 3,
+            "description": "Enum.",
+            "extends": "BaseEnum"
+        },
+        "EnumOauth": {
+            "name": "EnumOauth",
+            "shortname": "EnumOauth",
+            "classitems": [],
+            "plugins": [],
+            "extensions": [],
+            "plugin_for": [],
+            "extension_for": [],
+            "module": "model.Enum",
+            "namespace": "",
+            "file": "app/models/enum/oauth.js",
+            "line": 3,
+            "description": "Enum.",
+            "extends": "DS.Model"
+        },
+        "EnumState": {
+            "name": "EnumState",
+            "shortname": "EnumState",
+            "classitems": [],
+            "plugins": [],
+            "extensions": [],
+            "plugin_for": [],
+            "extension_for": [],
+            "module": "model.Enum",
+            "namespace": "",
+            "file": "app/models/enum/state.js",
+            "line": 3,
+            "description": "Enum.",
+            "extends": "DS.Model"
+        },
+        "EnumItem": {
+            "name": "EnumItem",
+            "shortname": "EnumItem",
+            "classitems": [],
+            "plugins": [],
+            "extensions": [],
+            "plugin_for": [],
+            "extension_for": [],
+            "module": "model.Enum",
+            "namespace": "",
+            "file": "app/models/flow/enum-item.js",
+            "line": 3,
+            "description": "Enum.",
+            "extends": "DS.Model"
+        },
+        "Apikey": {
+            "name": "Apikey",
+            "shortname": "Apikey",
+            "classitems": [],
+            "plugins": [],
+            "extensions": [],
+            "plugin_for": [],
+            "extension_for": [],
+            "module": "model.item",
+            "namespace": "",
+            "file": "app/models/apikey.js",
+            "line": 8,
+            "extends": "BaseItem"
+        },
+        "Backend": {
+            "name": "Backend",
+            "shortname": "Backend",
+            "classitems": [],
+            "plugins": [],
+            "extensions": [],
+            "plugin_for": [],
+            "extension_for": [],
+            "module": "model.item",
+            "namespace": "",
+            "file": "app/models/backend.js",
+            "line": 7,
+            "extends": "BaseItem"
+        },
+        "Backendapikey": {
+            "name": "Backendapikey",
+            "shortname": "Backendapikey",
+            "classitems": [],
+            "plugins": [],
+            "extensions": [],
+            "plugin_for": [],
+            "extension_for": [],
+            "module": "model.item",
+            "namespace": "",
+            "file": "app/models/backendapikey.js",
+            "line": 6,
+            "extends": "BaseItem"
+        },
+        "Backendconfig": {
+            "name": "Backendconfig",
+            "shortname": "Backendconfig",
+            "classitems": [],
+            "plugins": [],
+            "extensions": [],
+            "plugin_for": [],
+            "extension_for": [],
+            "module": "model.item",
+            "namespace": "",
+            "file": "app/models/backendconfig.js",
+            "line": 6,
+            "extends": "BaseItem"
+        },
+        "Backendheader": {
+            "name": "Backendheader",
+            "shortname": "Backendheader",
+            "classitems": [],
+            "plugins": [],
+            "extensions": [],
+            "plugin_for": [],
+            "extension_for": [],
+            "module": "model.item",
+            "namespace": "",
+            "file": "app/models/backendheader.js",
+            "line": 5,
+            "extends": "BaseItem"
+        },
+        "Backendowner": {
+            "name": "Backendowner",
+            "shortname": "Backendowner",
+            "classitems": [],
+            "plugins": [],
+            "extensions": [],
+            "plugin_for": [],
+            "extension_for": [],
+            "module": "model.item",
+            "namespace": "",
+            "file": "app/models/backendowner.js",
+            "line": 6,
+            "extends": "BaseItem"
+        },
+        "BaseItem": {
+            "name": "BaseItem",
+            "shortname": "BaseItem",
+            "classitems": [],
+            "plugins": [],
+            "extensions": [],
+            "plugin_for": [],
+            "extension_for": [],
+            "module": "model.item",
+            "namespace": "",
+            "file": "app/models/base-item.js",
+            "line": 5,
+            "description": "Parent class for items.  Required for polymorphic relations.",
+            "extends": "DS.Model"
+        },
+        "ConfigItem": {
+            "name": "ConfigItem",
+            "shortname": "ConfigItem",
+            "classitems": [],
+            "plugins": [],
+            "extensions": [],
+            "plugin_for": [],
+            "extension_for": [],
+            "module": "model",
+            "namespace": "",
+            "file": "app/models/config-item.js",
+            "line": 6,
+            "description": "Subitem for config item.",
+            "extends": "DS.Model"
+        },
+        "Config": {
+            "name": "Config",
+            "shortname": "Config",
+            "classitems": [],
+            "plugins": [],
+            "extensions": [],
+            "plugin_for": [],
+            "extension_for": [],
+            "module": "model.item",
+            "namespace": "",
+            "file": "app/models/config.js",
+            "line": 6,
+            "extends": "BaseItem"
+        },
+        "Endpoint": {
+            "name": "Endpoint",
+            "shortname": "Endpoint",
+            "classitems": [],
+            "plugins": [],
+            "extensions": [],
+            "plugin_for": [],
+            "extension_for": [],
+            "module": "model.item",
+            "namespace": "",
+            "file": "app/models/endpoint.js",
+            "line": 6,
+            "extends": "BaseItem"
+        },
+        "Favorite": {
+            "name": "Favorite",
+            "shortname": "Favorite",
+            "classitems": [],
+            "plugins": [],
+            "extensions": [],
+            "plugin_for": [],
+            "extension_for": [],
+            "module": "model",
+            "namespace": "",
+            "file": "app/models/favorite.js",
+            "line": 5,
+            "extends": "DS.Model"
+        },
+        "Graph": {
+            "name": "Graph",
+            "shortname": "Graph",
+            "classitems": [],
+            "plugins": [],
+            "extensions": [],
+            "plugin_for": [],
+            "extension_for": [],
+            "module": "model",
+            "namespace": "",
+            "file": "app/models/graph.js",
+            "line": 4,
+            "extends": "DS.Model"
+        },
+        "Group": {
+            "name": "Group",
+            "shortname": "Group",
+            "classitems": [],
+            "plugins": [],
+            "extensions": [],
+            "plugin_for": [],
+            "extension_for": [],
+            "module": "model.item",
+            "namespace": "",
+            "file": "app/models/group.js",
+            "line": 5,
+            "extends": "BaseItem"
+        },
+        "Idprovider": {
+            "name": "Idprovider",
+            "shortname": "Idprovider",
+            "classitems": [],
+            "plugins": [],
+            "extensions": [],
+            "plugin_for": [],
+            "extension_for": [],
+            "module": "model.item",
+            "namespace": "",
+            "file": "app/models/idprovider.js",
+            "line": 5,
+            "extends": "BaseItem"
+        },
+        "Locker": {
+            "name": "Locker",
+            "shortname": "Locker",
+            "classitems": [],
+            "plugins": [],
+            "extensions": [],
+            "plugin_for": [],
+            "extension_for": [],
+            "module": "model",
+            "namespace": "",
+            "file": "app/models/locker.js",
+            "line": 4,
+            "description": "Part of apikey.",
+            "extends": "DS.Model"
+        },
+        "Notification": {
+            "name": "Notification",
+            "shortname": "Notification",
+            "classitems": [],
+            "plugins": [],
+            "extensions": [],
+            "plugin_for": [],
+            "extension_for": [],
+            "module": "model",
+            "namespace": "",
+            "file": "app/models/notification.js",
+            "line": 4,
+            "description": "Part of apikey.",
+            "extends": "DS.Model"
+        },
+        "Owner": {
+            "name": "Owner",
+            "shortname": "Owner",
+            "classitems": [],
+            "plugins": [],
+            "extensions": [],
+            "plugin_for": [],
+            "extension_for": [],
+            "module": "model.item",
+            "namespace": "",
+            "file": "app/models/owner.js",
+            "line": 7,
+            "extends": "BaseItem"
+        },
+        "Permission": {
+            "name": "Permission",
+            "shortname": "Permission",
+            "classitems": [],
+            "plugins": [],
+            "extensions": [],
+            "plugin_for": [],
+            "extension_for": [],
+            "module": "model.item",
+            "namespace": "",
+            "file": "app/models/permission.js",
+            "line": 3,
+            "extends": "BaseItem"
+        },
+        "Role": {
+            "name": "Role",
+            "shortname": "Role",
+            "classitems": [],
+            "plugins": [],
+            "extensions": [],
+            "plugin_for": [],
+            "extension_for": [],
+            "module": "model",
+            "namespace": "",
+            "file": "app/models/role.js",
+            "line": 5,
+            "extends": "BaseItem"
+        },
+        "Search": {
+            "name": "Search",
+            "shortname": "Search",
+            "classitems": [],
+            "plugins": [],
+            "extensions": [],
+            "plugin_for": [],
+            "extension_for": [],
+            "module": "model",
+            "namespace": "",
+            "file": "app/models/search.js",
+            "line": 4,
+            "extends": "DS.Model"
+        },
+        "Signin": {
+            "name": "Signin",
+            "shortname": "Signin",
+            "classitems": [],
+            "plugins": [],
+            "extensions": [],
+            "plugin_for": [],
+            "extension_for": [],
+            "module": "model",
+            "namespace": "",
+            "file": "app/models/signin.js",
+            "line": 5,
+            "extends": "DS.Model"
+        },
+        "Tab": {
+            "name": "Tab",
+            "shortname": "Tab",
+            "classitems": [],
+            "plugins": [],
+            "extensions": [],
+            "plugin_for": [],
+            "extension_for": [],
+            "module": "model",
+            "namespace": "",
+            "file": "app/models/tab.js",
+            "line": 6,
+            "description": "Used for visual representation of tabs.",
+            "extends": "DS.Model"
+        },
+        "Template": {
+            "name": "Template",
+            "shortname": "Template",
+            "classitems": [],
+            "plugins": [],
+            "extensions": [],
+            "plugin_for": [],
+            "extension_for": [],
+            "module": "model.item",
+            "namespace": "",
+            "file": "app/models/template.js",
+            "line": 6,
+            "extends": "BaseItem"
+        },
+        "Version": {
+            "name": "Version",
+            "shortname": "Version",
+            "classitems": [],
+            "plugins": [],
+            "extensions": [],
+            "plugin_for": [],
+            "extension_for": [],
+            "module": "model.item",
+            "namespace": "",
+            "file": "app/models/version.js",
+            "line": 4,
+            "extends": "BaseItem"
+        }
+    },
+    "elements": {},
+    "classitems": [
+        {
+            "file": "app/models/enum/base.js",
+            "line": 12,
+            "itemtype": "property",
+            "name": "name",
+            "type": "String",
+            "class": "BaseEnum",
+            "module": "model.Enum"
+        },
+        {
+            "file": "app/models/apikey.js",
+            "line": 69,
+            "itemtype": "property",
+            "name": "notification",
+            "type": "Notification",
+            "class": "Apikey",
+            "module": "model.item"
+        },
+        {
+            "file": "app/models/apikey.js",
+            "line": 75,
+            "itemtype": "property",
+            "name": "owner",
+            "type": "Owner",
+            "class": "Apikey",
+            "module": "model.item"
+        },
+        {
+            "file": "app/models/apikey.js",
+            "line": 81,
+            "itemtype": "property",
+            "name": "locker",
+            "type": "Locker",
+            "class": "Apikey",
+            "module": "model.item"
+        },
+        {
+            "file": "app/models/apikey.js",
+            "line": 87,
+            "itemtype": "property",
+            "name": "backends",
+            "type": "Backend",
+            "class": "Apikey",
+            "module": "model.item"
+        },
+        {
+            "file": "app/models/apikey.js",
+            "line": 96,
+            "itemtype": "property",
+            "name": "backendapikeysOptions",
+            "type": "Backend",
+            "class": "Apikey",
+            "module": "model.item"
+        },
+        {
+            "file": "app/models/base-item.js",
+            "line": 14,
+            "description": "Set to TRUE if you need reload record always",
+            "itemtype": "property",
+            "name": "forceReload",
+            "type": "Boolead",
+            "class": "BaseItem",
+            "module": "model.item"
+        },
+        {
+            "file": "app/models/base-item.js",
+            "line": 20,
+            "description": "Item name. Displayed in lists and in title.",
+            "itemtype": "property",
+            "name": "name",
+            "type": "String",
+            "class": "BaseItem",
+            "module": "model.item"
+        },
+        {
+            "file": "app/models/base-item.js",
+            "line": 28,
+            "description": "Item subname. Displayed in lists.",
+            "itemtype": "property",
+            "name": "subname",
+            "type": "String",
+            "class": "BaseItem",
+            "module": "model.item"
+        },
+        {
+            "file": "app/models/base-item.js",
+            "line": 40,
+            "description": "Returns true if item suits the filter",
+            "params": [
+                {
+                    "name": "filter",
+                    "description": "filter text",
+                    "type": "String"
+                }
+            ],
+            "return": {
+                "description": "true if item suits the filter",
+                "type": "Boolean"
+            },
+            "class": "BaseItem",
+            "module": "model.item"
+        },
+        {
+            "file": "app/models/owner.js",
+            "line": 61,
+            "description": "Contains promise which alias check result or resolved promise",
+            "class": "Owner",
+            "module": "model.item"
+        },
+        {
+            "file": "app/models/tab.js",
+            "line": 19,
+            "itemtype": "property",
+            "name": "viewType",
+            "type": "String",
+            "class": "Tab",
+            "module": "model"
+        },
+        {
+            "file": "app/models/tab.js",
+            "line": 25,
+            "itemtype": "property",
+            "name": "type",
+            "type": "String",
+            "class": "Tab",
+            "module": "model"
+        },
+        {
+            "file": "app/models/tab.js",
+            "line": 32,
+            "itemtype": "property",
+            "name": "name",
+            "type": "String",
+            "class": "Tab",
+            "module": "model"
+        },
+        {
+            "file": "app/models/tab.js",
+            "line": 40,
+            "itemtype": "property",
+            "name": "loading",
+            "type": "Boolean",
+            "class": "Tab",
+            "module": "model"
+        },
+        {
+            "file": "app/models/tab.js",
+            "line": 48,
+            "itemtype": "property",
+            "name": "title",
+            "type": "String",
+            "class": "Tab",
+            "module": "model"
+        },
+        {
+            "file": "app/models/tab.js",
+            "line": 78,
+            "itemtype": "property",
+            "name": "dataSet",
+            "type": "BaseItem",
+            "class": "Tab",
+            "module": "model"
+        },
+        {
+            "file": "app/models/tab.js",
+            "line": 84,
+            "itemtype": "property",
+            "name": "datasetType",
+            "type": "String",
+            "class": "Tab",
+            "module": "model"
+        },
+        {
+            "file": "app/models/tab.js",
+            "line": 99,
+            "description": "Used only in lists.",
+            "itemtype": "property",
+            "name": "editMode",
+            "type": "Boolean",
+            "class": "Tab",
+            "module": "model"
+        },
+        {
+            "file": "app/models/tab.js",
+            "line": 106,
+            "description": "Used only in lists.",
+            "itemtype": "property",
+            "name": "editModeOn",
+            "type": "Boolean",
+            "class": "Tab",
+            "module": "model"
+        },
+        {
+            "file": "app/models/tab.js",
+            "line": 113,
+            "description": "Used only in lists.",
+            "itemtype": "property",
+            "name": "relationProperty",
+            "type": "String",
+            "class": "Tab",
+            "module": "model"
+        },
+        {
+            "file": "app/models/tab.js",
+            "line": 120,
+            "description": "Used only in lists.",
+            "itemtype": "property",
+            "name": "relationProperty",
+            "type": "BaseItem",
+            "class": "Tab",
+            "module": "model"
+        },
+        {
+            "file": "app/models/tab.js",
+            "line": 127,
+            "itemtype": "property",
+            "name": "favorite",
+            "type": "Favorite",
+            "class": "Tab",
+            "module": "model"
+        }
+    ],
+    "warnings": [
+        {
+            "message": "Missing item type\nReturns true if item suits the filter",
+            "line": " app/models/base-item.js:40"
+        },
+        {
+            "message": "Missing item type\nContains promise which alias check result or resolved promise",
+            "line": " app/models/owner.js:61"
+        }
+    ]
+}

@@ -1,0 +1,8 @@
+{{#link-to 'class-detail' model.name}}{{model.name}} {{/link-to}}
+{{#if model.children}}
+	<ul>
+	{{#each model.children as |child|}}
+		<li>{{class-tree-item model=child}}</li>
+	{{/each}}
+	</ul>
+{{/if}}
